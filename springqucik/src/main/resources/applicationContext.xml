@@ -6,5 +6,11 @@
 
     <!--配置bean-->
     <bean  id="dao" class="com.it.dao.impl.BookDaoImpl"></bean>
-    <bean id="service" class="com.it.service.impl.bookServiceImpl"></bean>
+    <bean id="service" class="com.it.service.impl.bookServiceImpl">
+        <!--配置service和dao关系-->
+        <property name="bookDao" ref="dao"></property>
+    </bean>
+
+    <!--使用factorybean实例化-->
+    <bean id="bookdao" class="com.it.factory.BookDaoFactoryBean"></bean>
 </beans>
