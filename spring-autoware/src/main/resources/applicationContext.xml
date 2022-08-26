@@ -3,6 +3,15 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="bookDao" class="j.com.it.dao.impl.BookDaoImpl"></bean>
+    <bean id="bookDao" class="j.com.it.dao.impl.BookDaoImpl">
+        <property name="set">
+            <set>
+                <value>1</value>
+            </set>
+        </property>
+    </bean>
+
     <bean id="bookService" class="j.com.it.service.impl.bookServiceImpl" autowire="byType"></bean>
+
+
 </beans>

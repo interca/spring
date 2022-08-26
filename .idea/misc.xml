@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/springqucik/pom.xml" />
         <option value="$PROJECT_DIR$/spring-autoware/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-datasource/pom.xml" />
       </list>
     </option>
   </component>
