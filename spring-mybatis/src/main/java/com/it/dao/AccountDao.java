@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-@Mapper
+//@Mapper
 public interface AccountDao {
     //@Select("select * from account where money =123")
     List<Account> findAll();
