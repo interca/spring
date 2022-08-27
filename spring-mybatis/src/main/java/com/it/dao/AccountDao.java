@@ -9,6 +9,6 @@ import java.util.List;
 
 @Mapper
 public interface AccountDao {
-    @Select("select * from account")
+    //@Select("select * from account")
     List<Account> findAll();
 }

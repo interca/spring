@@ -6,7 +6,7 @@
 <mapper namespace="com.it.dao.AccountDao">
 
     <select id="findAll" resultType="com.it.domain.Account">
-        select * from account
+        select * from account where money=12334
     </select>
 
 
