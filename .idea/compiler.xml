@@ -9,6 +9,7 @@
         <module name="spring-autoware" />
         <module name="spring-annotion" />
         <module name="springqucik" />
+        <module name="spring-mybatis" />
         <module name="spring-datasource" />
       </profile>
     </annotationProcessing>
