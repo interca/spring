@@ -7,6 +7,6 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 public interface AccountDao {
-    //@Select("select * from account")
+    @Select("select * from account")
     List<Account> findAll();
 }
