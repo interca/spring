@@ -37,4 +37,9 @@ public class Account {
                 ", money=" + money +
                 '}';
     }
+
+    public Account(String name, int money) {
+        this.name = name;
+        this.money = money;
+    }
 }

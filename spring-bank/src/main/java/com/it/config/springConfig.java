@@ -7,6 +7,7 @@ import org.springframework.context.annotation.*;
 @ComponentScan({"com.it"})//扫描的地方
 @PropertySources({@PropertySource("classpath:jdbc.properties")})//加载外部文件
 @Import({jdbcConfig.class,mybatisConfig.class})//导入其他配置
+@EnableAspectJAutoProxy //告诉用注解配置事务
 public class springConfig {
 
 }
