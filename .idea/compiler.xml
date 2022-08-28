@@ -6,12 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-mvc" />
         <module name="spring-autoware" />
-        <module name="spring-annotion" />
+        <module name="web" />
         <module name="springqucik" />
+        <module name="spring-bank" />
+        <module name="spring_mvc" />
+        <module name="mvc" />
+        <module name="spring-annotion" />
         <module name="spring-mybatis" />
         <module name="spring-datasource" />
-        <module name="spring-bank" />
       </profile>
     </annotationProcessing>
   </component>
