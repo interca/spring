@@ -11,6 +11,7 @@
         <module name="springqucik" />
         <module name="spring-mybatis" />
         <module name="spring-datasource" />
+        <module name="spring-bank" />
       </profile>
     </annotationProcessing>
   </component>
