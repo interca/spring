@@ -22,7 +22,7 @@ public class mybatisConfig {
     public MapperScannerConfigurer mapperScannerConfigurer(){
       MapperScannerConfigurer msc=new MapperScannerConfigurer();
       //映射在哪个包
-        msc.setBasePackage("com/it/dao");
+        msc.setBasePackage("com/it/mapper");
       return msc;
     }
 

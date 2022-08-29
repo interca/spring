@@ -37,6 +37,9 @@ public class servletConfig extends AbstractDispatcherServletInitializer {
     //加载spring容器
     @Override
     protected WebApplicationContext createRootApplicationContext() {
-        return null;
+        AnnotationConfigWebApplicationContext a=new AnnotationConfigWebApplicationContext();
+        //注册配置
+        a.register(springConfig.class);
+        return a;
     }
 }
